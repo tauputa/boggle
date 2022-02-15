@@ -48,11 +48,6 @@ object Build : BuildType({
 
     triggers {
         vcs {
-            quietPeriodMode = vcsTrigger.QuietPeriodMode.USE_CUSTOM
-            quietPeriod = 30
-            perCheckinTriggering = true
-            groupCheckinsByCommitter = true
-            enableQueueOptimization = false
         }
     }
 })
